@@ -23,6 +23,7 @@
 
 
 
+// 1
 
 // const a=1;
 
@@ -34,8 +35,48 @@
  
 
 
+// const a=0;
+
+// if(a===0){
+//     console.log("Верно")
+// } else {
+//     console.log("Неверно")
+// }
+
+
+
+// const a=-3;
+
+// if(a===0){
+//     console.log("Верно")
+// } else {
+//     console.log("Неверно")
+// }
+
+
+
 
 // 2
+
+
+// const a=1;
+
+// if(a>0){
+//     console.log("Верно")
+// } else {
+//     console.log("Неверно")
+// }
+
+
+
+// const a=0;
+// if(a>0){
+//     console.log("Верно")
+// } else {
+//     console.log("Неверно")
+// }
+
+
 
 // const a=-3;
 
@@ -49,20 +90,21 @@
 
 
 
+// 3
 
-// 4
-
-// const a=-3;
-// if(a>=0){
+// const a=1;
+// if(a<0){
 //     console.log("Верно")
 // } else {
 //     console.log("Неверно")
 // }
-    
 
-
-
-// 3
+// const a=0;
+// if(a<0){
+//     console.log("Верно")
+// } else {
+//     console.log("Неверно")
+// }
 
 // const a=-3;
 // if(a<0){
@@ -73,8 +115,53 @@
 
 
 
+// 4
+
+// const a=1;
+// if(a>=0){
+//     console.log("Верно")
+// } else {
+//     console.log("Неверно")
+// }
+    
+// const a=0;
+// if(a>=0){
+//     console.log("Верно")
+// } else {
+//     console.log("Неверно")
+// }
+
+
+// const a=-3;
+// if(a>=0){
+//     console.log("Верно")
+// } else {
+//     console.log("Неверно")
+// }
+
+
+
+
+
+
 
 // 5
+
+// const a=1;
+// if(a<=0){
+//     console.log("Верно")
+// } else {
+//     console.log("Неверно")
+// }
+
+
+// const a=0;
+// if(a<=0){
+//     console.log("Верно")
+// } else {
+//     console.log("Неверно")
+// }
+
 
 // const a=-3;
 // if(a<=0){
@@ -88,6 +175,21 @@
 
 // 6
 
+// const a=1;
+// if(a!=0){
+//     console.log("Верно")
+// } else {
+//     console.log("Неверно")
+// }
+
+
+// const a=0;
+// if(a!=0){
+//     console.log("Верно")
+// } else {
+//     console.log("Неверно")
+// }
+
 // const a=-3;
 // if(a!=0){
 //     console.log("Верно")
@@ -96,10 +198,24 @@
 // }
 
 
-
 // 7
 
-// let a='3';
+// const a='test';
+// if(a==='test'){
+//     console.log("Верно")
+// } else {
+//     console.log("Неверно")
+// }
+
+// const a='тест';
+// if(a==='test'){
+//     console.log("Верно")
+// } else {
+//     console.log("Неверно")
+// }
+
+
+// const a=3;
 // if(a==='test'){
 //     console.log("Верно")
 // } else {
@@ -111,7 +227,23 @@
 
 // 8
 
-// let a=3;
+// const a='1';
+// if(a==='1'){
+//     console.log("Верно")
+// } else {
+//     console.log("Неверно")
+// }
+
+
+// const a=1;
+// if(a==='1'){
+//     console.log("Верно")
+// } else {
+//     console.log("Неверно")
+// }
+
+
+// const a=3;
 // if(a==='1'){
 //     console.log("Верно")
 // } else {
@@ -124,6 +256,13 @@
 // логические перем-ые
 
 // 1
+// const a = 'test';
+// if ('test' === true ) {
+//     console.log("Верно");
+// } else {
+//     console.log('Неверно');
+// }
+
 // const a = 'test';
 // if ('test' === false) {
 //     console.log("Верно");
@@ -143,30 +282,200 @@
 
 
 
+
+
+
+// работа с &&  и ||
+
+//  1
+
+// const a=5;
+// if (a>0 && a<5) {
+//     console.log("Верно");
+// } else {
+//     console.log('Неверно');
+// }
+
+// const a=0;
+// if (a>0 && a<5) {
+//     console.log("Верно");
+// } else {
+//     console.log('Неверно');
+// }
+
+// const a=-3;
+// if (a>0 && a<5) {
+//     console.log("Верно");
+// } else {
+//     console.log('Неверно');
+// }
+
+// const a=2;
+// if (a>0 && a<5) {
+//     console.log("Верно");
+// } else {
+//     console.log('Неверно');
+// }
+
+
+
+// 2
+
+// const a=5; 
+// if (a===0 || a===2) {
+//     console.log(a+7);
+// } else {
+//     console.log(a/10);
+// }
+
+// const a=0; 
+// if (a===0 || a===2) {
+//     console.log(a+7);
+// } else {
+//     console.log(a/10);
+// }
+
+// const a=-3; 
+// if (a===0 || a===2) {
+//     console.log(a+7);
+// } else {
+//     console.log(a/10);
+// }
+
+// const a=2; 
+// if (a===0 || a===2) {
+//     console.log(a+7);
+// } else {
+//     console.log(a/10);
+// }
+
+
+// 3
+
+// const a=1; 
+// const b=3; 
+
+// if (a<=1 || b>=3) {
+//     console.log(a+b);
+// } else {
+//     console.log(a-b);
+// }
+
+
+// const a=0; 
+// const b=6; 
+
+// if (a<=1 || b>=3) {
+//     console.log(a+b);
+// } else {
+//     console.log(a-b);
+// }
+
+// const a=3; 
+// const b=5; 
+
+// if (a<=1 || b>=3) {
+//     console.log(a+b);
+// } else {
+//     console.log(a-b);
+// }
+
+
+
+// 4
+
+// const a=8; 
+// const b=9; 
+
+// if (a>2 && a<11 || b>=6 && b<14) {
+//     console.log('Верно');
+// } else {
+//     console.log('Неверно');
+// }
+
+
+
 // switch-case
 
-const num = '4';
-switch(num){
-    case '1': {
-        console.log('Зима')
-        break;
-    }
-    case '2': {
-        console.log('Весна')
-        break;
-    }
-    case '3': {
-        console.log('Лето')
-        break;
-    }
-    case '4': {
-        console.log('Осень')
-        break;
-    }
-}
+// const num = '1';
+// switch(num){
+//     case '1': {
+//         console.log('Зима')
+//         break;
+//     }
+//     case '2': {
+//         console.log('Весна')
+//         break;
+//     }
+//     case '3': {
+//         console.log('Лето')
+//         break;
+//     }
+//     case '4': {
+//         console.log('Осень')
+//         break;
+//     }
+// }
 
 
+// const num = '2';
+// switch(num){
+//     case '1': {
+//         console.log('Зима')
+//         break;
+//     }
+//     case '2': {
+//         console.log('Весна')
+//         break;
+//     }
+//     case '3': {
+//         console.log('Лето')
+//         break;
+//     }
+//     case '4': {
+//         console.log('Осень')
+//         break;
+//     }
+// }
 
 
+// const num = '3';
+// switch(num){
+//     case '1': {
+//         console.log('Зима')
+//         break;
+//     }
+//     case '2': {
+//         console.log('Весна')
+//         break;
+//     }
+//     case '3': {
+//         console.log('Лето')
+//         break;
+//     }
+//     case '4': {
+//         console.log('Осень')
+//         break;
+//     }
+// }
 
 
+// const num = '4';
+// switch(num){
+//     case '1': {
+//         console.log('Зима')
+//         break;
+//     }
+//     case '2': {
+//         console.log('Весна')
+//         break;
+//     }
+//     case '3': {
+//         console.log('Лето')
+//         break;
+//     }
+//     case '4': {
+//         console.log('Осень')
+//         break;
+//     }
+// }
