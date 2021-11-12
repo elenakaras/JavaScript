@@ -479,3 +479,65 @@
 //         break;
 //     }
 // }
+
+
+
+// Общие задачи
+
+// 1
+
+// let day = 16
+
+// if (day>=1 && day<=10) {
+//     console.log("Первая декада");
+// } else if (day>10 && day<=20) {
+//     console.log("Вторая декада");
+// } else if (day>20 && day<=31) {
+//     console.log("Третья декада");
+// }
+
+
+// 2
+
+// let month = 12
+
+// if (month===1 || month===2 || month===12) {
+//     console.log("Зима");
+// } else if (month===3 || month===4 || month===5) {
+//     console.log("Весна");
+// } else if (month===6 || month===7 || month===8) {
+//     console.log("Лето");
+// }
+
+
+
+
+
+
+
+
+// циклы while и for
+ 
+// 1
+// for (let i=0; i<100; i++){
+//     console.log(i)
+// }
+
+
+
+// 2
+// for (let i=11; i<=33; i++){
+//     console.log(i)
+// }
+
+
+// 3
+
+// for (let i=0; i<=100; i+=2){
+//     console.log(i)
+// }
+
+
+
+
+
