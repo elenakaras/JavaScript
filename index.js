@@ -1,543 +1,166 @@
-// console.log("кот">"код"); //true
-// console.log(undefined == null); // true
-// console.log(undefined === null); //false
-// console.log(null==0); //false
-// console.log(2 > "3"); //false
-// console.log(null - false + true); //NaN
-// console.log(1 / "l"); // Nan
-// console.log("2" * "3"); // 6
-// console.log(4 + 5 + "O"); //90
-// console.log("l" + 4 + 5); //l45
-// console.log("4" - 2);  //2
-// console.log("4" - "4x"); // Nan
-// console.log(null == false); // false
-// console.log(" -4 "/ 0 + 1); // -Infinity
-// console.log(null + 1); // 1
-// console.log(undefined + null); // NaN
+// 1. Сделайте функцию, которая возвращает квадрат числа. Число передается параметром.
+
+// function getSqr (a) {
+//     return (a**2);
+//     }
+
+//     getSqr (7)
+//     console.log (getSqr(7));
 
 
 
+// 2.Сделайте функцию, которая возвращает сумму двух чисел.
 
 
+// function getSum (a, b) {
+//     return (a+b);
+//     }
 
+//     getSum(5, 2)
+//     console.log (getSum(5, 2));
 
-
-
-// 1
-
-// const a=1;
-
-// if(a===0){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
-// }
  
 
 
-// const a=0;
+// 3. Сделайте функцию, которая отнимает от первого числа второе и делит на третье.
 
-// if(a===0){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
+// function getDiv (a, b, c) {
+//     return ((a - b)/c);
+//     }
+
+//     getDiv(10, 6, 4 )
+//     console.log (getDiv(10, 6, 4));
+
+
+// 4. Сделайте функцию, которая принимает параметром число от 1 до 7, а возвращает день недели на русском языке.
+
+// function getStringDay(number) {
+//   if (number === 1) {
+//     return "Понедельник";
+//   } else if (number === 2) {
+//     return "Вторник";
+//   } else if (number === 3) {
+//     return "Среда";
+//   } else if (number === 4) {
+//     return " Четверг";
+//   } else if (number === 5) {
+//     return "Пятница";
+//   } else if (number === 6) {
+//     return "Суббота";
+//   } else if (number === 7) {
+//     return "Воскресенье";
+//   }
 // }
 
-
-
-// const a=-3;
-
-// if(a===0){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
-// }
+// console.log(getStringDay(7));
 
 
 
 
-// 2
+// 5. Сделайте функцию, которая параметрами принимает 2 числа. 
+// Если эти числа равны - пусть функция вернет true, а если не равны - false.
 
 
-// const a=1;
-
-// if(a>0){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
-// }
-
-
-
-// const a=0;
-// if(a>0){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
-// }
+// function getEqual(a, b) {
+//     if (a === b) {
+//       return "true";
+//     } else if (a !== b) {
+//       return "false";
+//     } 
+//   }
+  
+//   console.log(getEqual(5, 7));
 
 
+// 6. Сделайте функцию, которая параметрами принимает 2 числа. 
+// Если их сумма больше 10 - пусть вернет true, а если нет то - false.
 
-// const a=-3;
 
-// if(a>0){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
-// }
-
+// function getUnequal(a, b) {
+//     if ((a + b)>10) {
+//       return "true";
+//     } else if ((a + b)<=10) {
+//       return "false";
+//     } 
+//   }
+  
+//   console.log(getUnequal(5, 2));
 
 
 
 
-// 3
+//   7. Сделайте функцию, которая параметром принимает число 
+//   и проверяет - отрицательное оно или нет. 
+//   Если отрицательное - пусть функция вернет true, а если нет - false.
 
-// const a=1;
-// if(a<0){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
-// }
 
-// const a=0;
-// if(a<0){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
-// }
-
-// const a=-3;
-// if(a<0){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
-// }
+// function getCompare (a) {
+//     if (a < 0) {
+//       return "true";
+//     } else if (a > 0) {
+//       return "false";
+//     } 
+//   }
+  
+//   console.log(getCompare(7));
 
 
 
-// 4
 
-// const a=1;
-// if(a>=0){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
-// }
+//   8. Сделайте функцию isNumberInRange, которая параметром принимает число и проверяет, 
+// что оно больше нуля и меньше 10. 
+// Если это так - пусть функция возвращает true, если не так - false.
+
+
+
+// function isNumberInRange(a) {
+//     if (a > 0 && a < 10) {
+//         return "true";
+//       } else if (a < 0 && a > 10) {
+//         return "false";
+//       } 
+//     } 
     
-// const a=0;
-// if(a>=0){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
-// }
+    
+//     console.log(isNumberInRange(7));
+        
+    
 
 
-// const a=-3;
-// if(a>=0){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
-// }
 
 
+// 9. Создайте функцию rgb(), которая будет принимать три числовых аргумента 
+// и возвращать строку вида «rgb(23,100,134)». 
+// Если аргументы не заданы, считать их равными нулю. 
+// Не проверять переменные на тип данных
 
 
 
 
 
-// 5
 
-// const a=1;
-// if(a<=0){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
-// }
 
 
-// const a=0;
-// if(a<=0){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
-// }
+// 10. Написать функцию, которая принимает в себя три параметра - число и две функции. 
+// Первая переданная функция  возвращает возведенное в квадрат переданное число 
+// и будет вызываться, если число четное. 
+// Вторая переданная коллбэк-функция будет вызываться с переданным в нее числом , 
+// если число нечетное, и будет возвращать число, увеличенное на 1.
 
 
-// const a=-3;
-// if(a<=0){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
-// }
 
 
 
-
-// 6
-
-// const a=1;
-// if(a!=0){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
-// }
-
-
-// const a=0;
-// if(a!=0){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
-// }
-
-// const a=-3;
-// if(a!=0){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
-// }
-
-
-// 7
-
-// const a='test';
-// if(a==='test'){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
-// }
-
-// const a='тест';
-// if(a==='test'){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
-// }
-
-
-// const a=3;
-// if(a==='test'){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
-// }
-
-
-
-
-// 8
-
-// const a='1';
-// if(a==='1'){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
-// }
-
-
-// const a=1;
-// if(a==='1'){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
-// }
-
-
-// const a=3;
-// if(a==='1'){
-//     console.log("Верно")
-// } else {
-//     console.log("Неверно")
-// }
-
-
-
-
-// логические перем-ые
-
-// 1
-// const a = 'test';
-// if ('test' === true ) {
-//     console.log("Верно");
-// } else {
-//     console.log('Неверно');
-// }
-
-// const a = 'test';
-// if ('test' === false) {
-//     console.log("Верно");
-// } else {
-//     console.log('Неверно');
-// }
-
-
-// 2
-// const a = 'test';
-// if ('test' != false) {
-//     console.log("Верно");
-// } else {
-//     console.log('Неверно');
-// }
-
-
-
-
-
-
-
-// работа с &&  и ||
-
-//  1
-
-// const a=5;
-// if (a>0 && a<5) {
-//     console.log("Верно");
-// } else {
-//     console.log('Неверно');
-// }
-
-// const a=0;
-// if (a>0 && a<5) {
-//     console.log("Верно");
-// } else {
-//     console.log('Неверно');
-// }
-
-// const a=-3;
-// if (a>0 && a<5) {
-//     console.log("Верно");
-// } else {
-//     console.log('Неверно');
-// }
-
-// const a=2;
-// if (a>0 && a<5) {
-//     console.log("Верно");
-// } else {
-//     console.log('Неверно');
-// }
-
-
-
-// 2
-
-// const a=5; 
-// if (a===0 || a===2) {
-//     console.log(a+7);
-// } else {
-//     console.log(a/10);
-// }
-
-// const a=0; 
-// if (a===0 || a===2) {
-//     console.log(a+7);
-// } else {
-//     console.log(a/10);
-// }
-
-// const a=-3; 
-// if (a===0 || a===2) {
-//     console.log(a+7);
-// } else {
-//     console.log(a/10);
-// }
-
-// const a=2; 
-// if (a===0 || a===2) {
-//     console.log(a+7);
-// } else {
-//     console.log(a/10);
-// }
-
-
-// 3
-
-// const a=1; 
-// const b=3; 
-
-// if (a<=1 || b>=3) {
-//     console.log(a+b);
-// } else {
-//     console.log(a-b);
-// }
-
-
-// const a=0; 
-// const b=6; 
-
-// if (a<=1 || b>=3) {
-//     console.log(a+b);
-// } else {
-//     console.log(a-b);
-// }
-
-// const a=3; 
-// const b=5; 
-
-// if (a<=1 || b>=3) {
-//     console.log(a+b);
-// } else {
-//     console.log(a-b);
-// }
-
-
-
-// 4
-
-// const a=8; 
-// const b=9; 
-
-// if (a>2 && a<11 || b>=6 && b<14) {
-//     console.log('Верно');
-// } else {
-//     console.log('Неверно');
-// }
-
-
-
-// switch-case
-
-// const num = '1';
-// switch(num){
-//     case '1': {
-//         console.log('Зима')
-//         break;
-//     }
-//     case '2': {
-//         console.log('Весна')
-//         break;
-//     }
-//     case '3': {
-//         console.log('Лето')
-//         break;
-//     }
-//     case '4': {
-//         console.log('Осень')
-//         break;
-//     }
-// }
-
-
-// const num = '2';
-// switch(num){
-//     case '1': {
-//         console.log('Зима')
-//         break;
-//     }
-//     case '2': {
-//         console.log('Весна')
-//         break;
-//     }
-//     case '3': {
-//         console.log('Лето')
-//         break;
-//     }
-//     case '4': {
-//         console.log('Осень')
-//         break;
-//     }
-// }
-
-
-// const num = '3';
-// switch(num){
-//     case '1': {
-//         console.log('Зима')
-//         break;
-//     }
-//     case '2': {
-//         console.log('Весна')
-//         break;
-//     }
-//     case '3': {
-//         console.log('Лето')
-//         break;
-//     }
-//     case '4': {
-//         console.log('Осень')
-//         break;
-//     }
-// }
-
-
-// const num = '4';
-// switch(num){
-//     case '1': {
-//         console.log('Зима')
-//         break;
-//     }
-//     case '2': {
-//         console.log('Весна')
-//         break;
-//     }
-//     case '3': {
-//         console.log('Лето')
-//         break;
-//     }
-//     case '4': {
-//         console.log('Осень')
-//         break;
-//     }
-// }
-
-
-
-// Общие задачи
-
-// 1
-
-// let day = 16
-
-// if (day>=1 && day<=10) {
-//     console.log("Первая декада");
-// } else if (day>10 && day<=20) {
-//     console.log("Вторая декада");
-// } else if (day>20 && day<=31) {
-//     console.log("Третья декада");
-// }
-
-
-// 2
-
-// let month = 12
-
-// if (month===1 || month===2 || month===12) {
-//     console.log("Зима");
-// } else if (month===3 || month===4 || month===5) {
-//     console.log("Весна");
-// } else if (month===6 || month===7 || month===8) {
-//     console.log("Лето");
-// }
-
-
-
-
-
-
-
-
-// циклы while и for
+// 11. Написать функцию mult(num1, num2 , num3) принимающую 3 числа. 
+// Функцию перемножает num1 и num2 столько раз, 
+// сколько указано в третьем аргументе num3. 
+// Значения num1 и num2 по умолчанию 1,  num3 по умолчанию 2. 
  
-// 1
-// for (let i=0; i<100; i++){
-//     console.log(i)
-// }
-
-
-
-// 2
-// for (let i=11; i<=33; i++){
-//     console.log(i)
-// }
-
-
-// 3
-
-// for (let i=0; i<=100; i+=2){
-//     console.log(i)
-// }
 
 
 
 
+
+// 12. Написать функцию, которая принимает 3 аргумента(каждый аргумент - 1 слово) 
+// и возвращает строку с этими 3 словами, расположенными в алфавитном порядке.
 
